@@ -1,0 +1,2 @@
+MONGO_URI=mongodb+srv://karthik:t152uzlco1sEuYqP@cluster0.k15nl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=4c8d76890303cd057f33f362772c23aadfed5ec40d9af4305747769775882315b4ed792926a8bbbef3b082d0b0d535629b5a62d9c490d890f61c791be47fbbc8
