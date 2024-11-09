@@ -1,0 +1,24 @@
+{
+  "name": "EAT24",
+  "version": "1.0.0",
+  "description": "MERN project",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "prebuild": "cd backend && npm install & cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "postbuild": "mv -f frontend/build backend/src/public"
+  },
+  "keywords": [],
+  "author": "Tadipatri Yaswanth Reddy",
+  "license": "ISC",
+  "engines": {
+    "node": "20.9.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0"
+  }
+}
